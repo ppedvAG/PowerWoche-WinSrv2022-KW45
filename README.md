@@ -11,3 +11,4 @@ Dieses Repository beeinhalten die TrainerNotizen und Kursbegleitende Skripte und
 - Hyper-V
 - Netzwerkgrundlagen
   - IPv4
+  - IPv6
