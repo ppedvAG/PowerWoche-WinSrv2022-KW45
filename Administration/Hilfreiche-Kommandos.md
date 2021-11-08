@@ -9,3 +9,10 @@ Mit dem folgenden Befehl lässt sich der Server oder auch Client via PowerShell 
 
 ---
 
+Mit dem folgenden Befehl lässt sich in einer cmd oder einer PowerShell die DNS Registration manuell anstoßen.
+
+**ipconfig /registerdns**
+
+---
+
+
