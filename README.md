@@ -12,3 +12,5 @@ Dieses Repository beeinhalten die TrainerNotizen und Kursbegleitende Skripte und
 - Netzwerkgrundlagen
   - IPv4
   - IPv6
+- DNS
+- DHCP
