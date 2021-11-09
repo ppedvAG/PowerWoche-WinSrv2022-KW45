@@ -21,6 +21,24 @@ Mit dem folgenden PowerShell cmdlet ist es möglich das Gerät der Domäne zu jo
 Add-Computer -DomainName ppedv.test -NewName Server2
 ```
 ---
+Mit dem folgenden PowerShell cmdlet lässt sich eine Remote PowerShell Verbindung herstellen
+
+```powershell
+Enter-PSSession -ComputerName Server2.ppedv.test
+```
+---
+Mit dem folgenden PowerShell cmdlet lässt sich der Datendedpluzierungsjob "Optimization" für das Volume F manuell starten. 
+```powershell
+Start-DedupJob -Volume F: -Type Optimization
+```
+--- 
+Mit dem folgenden cmdlet lässt sich der Status aller eventuell vorhanden Dedupjobs abfragen
+```powershell
+Get-Dedupjob
+```
+---
+
+
 
 
 
