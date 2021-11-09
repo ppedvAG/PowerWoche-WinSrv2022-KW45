@@ -37,6 +37,10 @@ Mit dem folgenden cmdlet lässt sich der Status aller eventuell vorhanden Dedupj
 Get-Dedupjob
 ```
 ---
+Mit dem folgenden Powershell cmdlet lässt sich die Rolle des DateiServers und des Speicherreplikat sowie die benötigten Verwaltungstools automatisch auf mehreren angegeben Servern installieren. Sollte ein Neustart notwendig sein wird dieser automatisch ausgelöst. 
+```powershell
+Invoke-Command -ComputerName Server2,Server3 {Install-WindowsFeature -Name FS-FileServer,Storage-Replica -IncludeManagementTools -Restart}
+```
 
 
 
