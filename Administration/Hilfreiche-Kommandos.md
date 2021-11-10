@@ -69,6 +69,11 @@ Mit dem folgenden PowerShell cmdlet lassen sich alle aktiven SMB Verbindungen da
 Get-SmbSession
 ```
 ---
+Mit diesem Befehehl wird Sysprep im Modus verallgemeinern ausgeführt und aktivieren des OOBE. In der Unattend Datei kann hinterlegt sein das das Administrator Profil zum Defaul Profil kopiert wird.
+```cmd
+C:\Windows\System32\Sysprep\sysprep.exe /generalize /oobe /shutdown /unattend:F:\Copyprofile.xml
+```
+---
 
 
 
