@@ -58,6 +58,17 @@ Anschließend muss lediglich noch dem DNS Client die Adresse des bevorzugten DNS
 Set-DnsClientServerAddress -InterfaceIndex 4 -ServerAddresses 192.168.10.1
 ```
 ---
+## Tag3
+---
+Mit dem folgenden PowerShell cmdlet lassen sich alle über SMB geöffneten Dateien anzeigen
+```powershell
+Get-SmbOpenFile
+```
+Mit dem folgenden PowerShell cmdlet lassen sich alle aktiven SMB Verbindungen darstellen
+```powershell
+Get-SmbSession
+```
+---
 
 
 

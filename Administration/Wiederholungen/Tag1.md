@@ -49,4 +49,4 @@
   - Mindestanforderungen
   - Lizenzierung
   - Editionen
-  - 
+  

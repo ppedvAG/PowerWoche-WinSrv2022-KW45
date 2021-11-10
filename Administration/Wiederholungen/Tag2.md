@@ -1,0 +1,53 @@
+# Wiederholung
+
+- Core Server
+  - sconfig
+    - vor Server 2022 in cmd als vbscript
+    - ab Server 2022 als PowerShell Skript
+  - Unterschiede zur Desktopvariante
+  - FoD
+  - weniger Wartungszeiträume benötigt 
+  - weniger Ressourcenbedarf
+- DFS
+  - Namespace
+    - vereint unter Umständen mehrere SMB Quellen unter einem Namen
+    - für den User nicht einfach einsehbar auf welcher Quelle er sich befindet
+    - Ordner / Ordnerziele
+    - Zugriffsbasierte Aufzählung (es werden nur die "Freigaben" angezeigt auf die der User berechtigt ist)
+    - Standortbasierte Zuordnung bei mehreren Zielen
+  - Replikation
+    - Replikationstopologien
+      - Nabe / Speiche Topologie
+      - vermaschte Topologie
+      - Datensammlung
+    - RDC (Remote Differential Compression)
+- Storage Replica
+  - Einsatzmöglichkeiten
+  - Partitionsbasierte Replikation für Desaster Recovery Szenarien
+    - wie z.B. zum Replizieren des Backups in einen anderen Standort oder Stadt / Bundesland / Land / Kontinent
+  - Unterschied Standard / Datacenter Edition
+    - Standard
+      - 1 Replikationspartner und Volume maximal 2 TB
+    - Datacenter
+      - unbegrenzte Partner und unbegrenzte Volumegröße
+  - Neuerungen ab 2019 wie zb Test Mount
+- DateiServer
+  - Datendeduplizierung
+    - Funktionsweise
+    - Handling (zb. bei Rücksicherung)
+  - Ressourcen Manager für DateiServer
+    - Kontingent Verwaltung
+    - Dateiprüfungsverwaltung
+    - NFS (Network File System | FileShares für Linux Clients)
+  - Rechtesystem 
+    - Freigabe
+    - lokale "NTFS" (Sicherheit) Ebene
+  - Storage Spaces
+- Storage Spaces Direct
+  - Datacenter Only !
+  - mit 2016 eingeführt
+  - weiterentwicklung zu Storage Spaces
+  - hochverfügbares Storage Cluster
+    - mit Standard Hardware
+  - geeignete für Konvergente und Hyperkonvergente Bereitstellung
+  

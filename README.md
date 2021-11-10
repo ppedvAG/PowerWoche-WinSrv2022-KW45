@@ -14,3 +14,19 @@ Dieses Repository beeinhalten die TrainerNotizen und Kursbegleitende Skripte und
   - IPv6
 - DNS
 - DHCP
+
+### Tag2
+- Wiederholung
+- DHCP Failover
+- DateiServer
+  - Rechtestrukturen
+  - Freigabe / NTFS Berechtigungen
+  - Ressourcen Manager für Dateiserver
+  - Datendeduplizierung
+  - DFS Namespace / Replication
+- Storage-Replica
+- Storage Spaces Direct
+  
+### Tag3
+- Wiederholung
+- 
