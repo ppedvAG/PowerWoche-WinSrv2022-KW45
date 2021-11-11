@@ -4,7 +4,7 @@ Dieses Repository beeinhalten die TrainerNotizen und Kursbegleitende Skripte und
 - [Windows Server - Administration](https://ppedv.de/Schulung/Kurse/WindowsServer2019_Container_Administration_NanoServer_Seminar_Training.aspx)
 - [Windows Server - Active Directory](https://ppedv.de/schulung/kurse/Windows-8-Schulung-Kurs-Seminar-Training-Server-ActiveDirectory-FSMO-GPO-2012.aspx)
 
-## Agenda:
+## Agenda Administration:
 ### Tag1
 - Einführung
 - Editionen
@@ -29,4 +29,17 @@ Dieses Repository beeinhalten die TrainerNotizen und Kursbegleitende Skripte und
   
 ### Tag3
 - Wiederholung
+- WDS
+- Routing & RAS
+- WSUS
+
+## Agenda Active Directory
+### Tag1 / 4
+- Grundlagen
+  - Funktionsebenen
+  - Strukturen
+- DNS
+- FSMO Rollen
+- Kurzeinweisung Hyper-V
+- Installation DC
 - 
