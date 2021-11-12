@@ -31,5 +31,11 @@ Die aktuelle Verteilung der Flexible Single Master Operators (Betriebsmaster) l�
 netdom query fsmo
 ```
 
-
+## Was muss ich bei Usern beachten / sollte ich festlegen
+- Bennungsschema für Benutzernamen (SamAccount / UPN)
+- Kennwortrichtlinien
+- UPN == E-Mail
+- JustEnoughAdministration (nur die notwendigsten Rechte nur zu den Zeitpunkten wo sie benötigt werden)
+- Vollständige Name muss innerhalb der **OU** eindeutig sein
+  - Vorname (Initialen des 2. Vornamens) Nachname
 
