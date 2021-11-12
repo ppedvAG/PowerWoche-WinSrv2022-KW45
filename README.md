@@ -42,4 +42,7 @@ Dieses Repository beeinhalten die TrainerNotizen und Kursbegleitende Skripte und
 - FSMO Rollen
 - Kurzeinweisung Hyper-V
 - Installation DC
-- 
+- Organisationseinheiten
+- Container
+- Benutzer und Computerkonten
+- Gruppen
