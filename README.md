@@ -46,3 +46,15 @@ Dieses Repository beeinhalten die TrainerNotizen und Kursbegleitende Skripte und
 - Container
 - Benutzer und Computerkonten
 - Gruppen
+
+### Tag2 / 5
+
+- Wiederholung FSMO
+- AGDLP / Rollenbasierte Berechtigung
+- Replikation
+  - Intrasite und InterSite
+- Anmeldeskripte und deren Nachteile
+- GPO`s und deren Vorteile ;)
+  - Grundlagen
+  - ADMX and how to get them
+  - Richtlinen / Einstellungen
